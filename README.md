@@ -16,3 +16,6 @@ A list of Python parsing tools initially imported from [@nedbat's](https://githu
 |[picoparse](https://github.com/brehaut/picoparse/)|v0.9 3/2009||||
 |[Aperiot](https://sites.google.com/site/aperiotparsergenerator/)|Apache 2.0|v0.1.12 1/2012||||
 |[PyGgy](https://pypi.python.org/pypi/pyggy/0.3)|Lexes with DFA from a specification in a .pyl file. Parses GLR grammars from a specification in a .pyg file. Rules in both files have Python action code. Unlike most parser generators, the rule actions are all executed in a post-processing step. The parser isn't represented as a discrete object, but as globals in a module.|Public Domain|v0.4 8/2004|||[Python 3 compatible fork 0.4.1](https://github.com/sprymix/pyggy), [discussion group](https://groups.google.com/forum/#!forum/pyggy)|
+|[Parsing](http://www.canonware.com/Parsing/)|LR(1) parser generator as well as CFSM and GLR parser drivers.|MIT|v1.4 12/2012|LR(1), CFSM, and GLR|||
+|[Rparse](https://sites.google.com/site/della1rv/therparseparsergenerator)|GPL|LL(1) parser generator with AST generation.|v 1.1.0. 4/2010||||
+|[SableCC](http://sablecc.org/)|Java-based parser and lexical analyzer generator. Generates parsing code in Java, with [alternative generators](http://www.mare.ee/indrek/sablecc/) for other languages including Python.|LGPL|v 3.7 11/2012||||
