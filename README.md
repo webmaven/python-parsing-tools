@@ -17,7 +17,7 @@ A list of Python parsing tools initially imported from [@nedbat's](https://githu
 |[Aperiot](https://sites.google.com/site/aperiotparsergenerator/)|Apache 2.0|v0.1.12 1/2012||||
 |[PyGgy](https://pypi.python.org/pypi/pyggy/0.3)|Lexes with DFA from a specification in a .pyl file. Parses GLR grammars from a specification in a .pyg file. Rules in both files have Python action code. Unlike most parser generators, the rule actions are all executed in a post-processing step. The parser isn't represented as a discrete object, but as globals in a module.|Public Domain|v0.4 8/2004|||[Python 3 compatible fork 0.4.1](https://github.com/sprymix/pyggy), [discussion group](https://groups.google.com/forum/#!forum/pyggy)|
 |[Parsing](http://www.canonware.com/Parsing/)|LR(1) parser generator as well as CFSM and GLR parser drivers.|MIT|v1.4 12/2012|LR(1), CFSM, and GLR|||
-|[Rparse](https://sites.google.com/site/della1rv/therparseparsergenerator)|GPL|LL(1) parser generator with AST generation.|v 1.1.0. 4/2010||||
+|[Rparse](https://sites.google.com/site/della1rv/therparseparsergenerator)||GPL|v 1.1.0. 4/2010|LL(1) parser generator with AST generation.|||
 |[SableCC](http://sablecc.org/)|Java-based parser and lexical analyzer generator. Generates parsing code in Java, with [alternative generators](http://www.mare.ee/indrek/sablecc/) for other languages including Python.|LGPL|v 3.7 11/2012||||
 |[GOLD Parser](http://goldparser.org/)||[zlib/libpng](http://opensource.org/licenses/zlib-license.html)|v 5.2.0 8/2012|LALR|||
 |[Plex](https://pypi.python.org/pypi/plex/)|Python module for constructing lexical analysers.|LGPL|v 2.0 12/2009||compiles all of the regular expressions into a single DFA.|
@@ -28,5 +28,5 @@ A list of Python parsing tools initially imported from [@nedbat's](https://githu
 |[DParser for Python](http://dparser.sourceforge.net/)|A scannerless GLR parser|BSD|v 1.3.0 3/2013|||[Charming Python: DParser for Python: Exploring Another Python Parser](http://gnosis.cx/publish/programming/charming_python_b19.txt)|
 |[Yapps](http://theory.stanford.edu/~amitp/yapps/)|Produces recursive-descent parsers, as a human would write. Designed to be easy to use rather than powerful or fast. Better suited for small parsing tasks like email addresses, simple configuration scripts, etc.|MIT|v 2.1.1 8/2003||||
 |[PyBison](http://freenet.mcnabhosting.com/python/pybison/)|Python binding to the Bison (yacc) and Flex (lex) parser-generator utilities|GPL|v 0.1.8 6/2004|LALR(1)||Doesn't yet support Windows.|
-|[Yappy](http://www.dcc.fc.up.pt/~rvr/naulas/Yappy/index.html)||v 1.9.4 8/2014|SLR, LR(1) and LALR(1)||Uses python strings to declare the grammar.|
-|[Toy Parser Generator](http://cdsoft.fr/tpg/)|LGPL|v 3.2.2 12/2013||||
+|[Yappy](http://www.dcc.fc.up.pt/~rvr/naulas/Yappy/index.html)|||v 1.9.4 8/2014|SLR, LR(1) and LALR(1)||Uses python strings to declare the grammar.|
+|[Toy Parser Generator](http://cdsoft.fr/tpg/)||LGPL|v 3.2.2 12/2013||||
