@@ -19,3 +19,9 @@ A list of Python parsing tools initially imported from [@nedbat's](https://githu
 |[Parsing](http://www.canonware.com/Parsing/)|LR(1) parser generator as well as CFSM and GLR parser drivers.|MIT|v1.4 12/2012|LR(1), CFSM, and GLR|||
 |[Rparse](https://sites.google.com/site/della1rv/therparseparsergenerator)|GPL|LL(1) parser generator with AST generation.|v 1.1.0. 4/2010||||
 |[SableCC](http://sablecc.org/)|Java-based parser and lexical analyzer generator. Generates parsing code in Java, with [alternative generators](http://www.mare.ee/indrek/sablecc/) for other languages including Python.|LGPL|v 3.7 11/2012||||
+|[GOLD Parser](http://goldparser.org/)||[zlib/libpng](http://opensource.org/licenses/zlib-license.html)|v 5.2.0 8/2012|LALR|||
+|[Plex](https://pypi.python.org/pypi/plex/)|Python module for constructing lexical analysers.|LGPL|v 2.0 12/2009||compiles all of the regular expressions into a single DFA.|
+|[Plex3](https://github.com/uogbuji/plex3)|Python3 port of Plex||8/2012|||No official release|
+|[yeanpypa](http://freecode.com/projects/yeanpypa/)|Yeanpypa is (yet another) framework to create recursive-descent parsers in Python.|Public Domain|4/2010|||Parsers are created by writing an EBNF-like grammar as Python expressions.|
+|[ZestyParser](https://pypi.python.org/pypi/ZestyParser)|MIT|v 0.8.1 4/2007||||
+|[BisonGen](http://copia.posthaven.com/of-bisongen)||v 0.8.0b1 4/2005||||
