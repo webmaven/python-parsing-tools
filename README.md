@@ -25,3 +25,8 @@ A list of Python parsing tools initially imported from [@nedbat's](https://githu
 |[yeanpypa](http://freecode.com/projects/yeanpypa/)|Yeanpypa is (yet another) framework to create recursive-descent parsers in Python.|Public Domain|4/2010|||Parsers are created by writing an EBNF-like grammar as Python expressions.|
 |[ZestyParser](https://pypi.python.org/pypi/ZestyParser)|MIT|v 0.8.1 4/2007||||
 |[BisonGen](http://copia.posthaven.com/of-bisongen)||v 0.8.0b1 4/2005||||
+|[DParser for Python](http://dparser.sourceforge.net/)|A scannerless GLR parser|BSD|v 1.3.0 3/2013|||[Charming Python: DParser for Python: Exploring Another Python Parser](http://gnosis.cx/publish/programming/charming_python_b19.txt)|
+|[Yapps](http://theory.stanford.edu/~amitp/yapps/)|Produces recursive-descent parsers, as a human would write. Designed to be easy to use rather than powerful or fast. Better suited for small parsing tasks like email addresses, simple configuration scripts, etc.|MIT|v 2.1.1 8/2003||||
+|[PyBison](http://freenet.mcnabhosting.com/python/pybison/)|Python binding to the Bison (yacc) and Flex (lex) parser-generator utilities|GPL|v 0.1.8 6/2004|LALR(1)||Doesn't yet support Windows.|
+|[Yappy](http://www.dcc.fc.up.pt/~rvr/naulas/Yappy/index.html)||v 1.9.4 8/2014|SLR, LR(1) and LALR(1)||Uses python strings to declare the grammar.|
+|[Toy Parser Generator](http://cdsoft.fr/tpg/)|LGPL|v 3.2.2 12/2013||||
