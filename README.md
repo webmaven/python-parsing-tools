@@ -1,6 +1,8 @@
 # Python Parsing Tools
 A list of Python parsing tools initially imported from [@nedbat's](https://github.com/nedbat) [blog post](http://nedbatchelder.com/text/python-parsers.html).
 
+## The List
+
 |Name|Description|License|Updated|Parses|Used By|Notes|
 |:--:|-----------|:-----:|-------|------|-------|-----|
 |[Ply](http://www.dabeaz.com/ply/)|Docstrings are used to associate lexer or parser rules with actions. The lexer uses Python regular expressions.|LGPL|v3.6 4/2015|LALR(1)|[lesscpy](https://github.com/lesscpy/lesscpy)|[ply-hack group](http://groups.google.com/group/ply-hack)|
@@ -11,8 +13,6 @@ A list of Python parsing tools initially imported from [@nedbat's](https://githu
 |[LEPL](http://www.acooke.org/lepl/)|A recursive descent parser.|dual licensed MPL/LGPL |v 5.1.3 9/2012||| Discontinued|
 |[Codetalker](https://github.com/jaredly/codetalker)|Python-based grammar definitions.|MIT| v 1.1 3/2014||||
 |[funcparserlib](https://github.com/vlasovskikh/funcparserlib)|Recurisve descent parsing library for Python based on functional combinators.|MIT| v0.3.6 5/2013||||
-|[http://effbot.org/zone/simple-top-down-parsing.htm](http://effbot.org/zone/simple-top-down-parsing.htm)|Not a tool exactly, but a methodology for writing top-down parsers in Python.|HPND|July 2008|||Blog post|
-|[Pysec: Monadic Combinatoric Parsing in Python](http://www.valuedlessons.com/2008/02/pysec-monadic-combinatoric-parsing-in.html)|An exposition of using monads to build a Python parser.||2/2008|||Blog post|
 |[picoparse](https://github.com/brehaut/picoparse/)|v0.9 3/2009||||
 |[Aperiot](https://sites.google.com/site/aperiotparsergenerator/)|Apache 2.0|v0.1.12 1/2012||||
 |[PyGgy](https://pypi.python.org/pypi/pyggy/0.3)|Lexes with DFA from a specification in a .pyl file. Parses GLR grammars from a specification in a .pyg file. Rules in both files have Python action code. Unlike most parser generators, the rule actions are all executed in a post-processing step. The parser isn't represented as a discrete object, but as globals in a module.|Public Domain|v0.4 8/2004|||[Python 3 compatible fork 0.4.1](https://github.com/sprymix/pyggy), [discussion group](https://groups.google.com/forum/#!forum/pyggy)|
@@ -30,3 +30,8 @@ A list of Python parsing tools initially imported from [@nedbat's](https://githu
 |[PyBison](http://freenet.mcnabhosting.com/python/pybison/)|Python binding to the Bison (yacc) and Flex (lex) parser-generator utilities|GPL|v 0.1.8 6/2004|LALR(1)||Doesn't yet support Windows.|
 |[Yappy](http://www.dcc.fc.up.pt/~rvr/naulas/Yappy/index.html)|||v 1.9.4 8/2014|SLR, LR(1) and LALR(1)||Uses python strings to declare the grammar.|
 |[Toy Parser Generator](http://cdsoft.fr/tpg/)||LGPL|v 3.2.2 12/2013||||
+
+## Articles
+
+* [http://effbot.org/zone/simple-top-down-parsing.htm](http://effbot.org/zone/simple-top-down-parsing.htm)|Not a tool exactly, but a methodology for writing top-down parsers in Python. (7/2008)
+* [Pysec: Monadic Combinatoric Parsing in Python](http://www.valuedlessons.com/2008/02/pysec-monadic-combinatoric-parsing-in.html)|An exposition of using monads to build a Python parser. (2/2008)
