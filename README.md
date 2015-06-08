@@ -30,8 +30,9 @@ A list of Python parsing tools initially imported from [@nedbat's](https://githu
 |[PyBison](http://freenet.mcnabhosting.com/python/pybison/)|Python binding to the Bison (yacc) and Flex (lex) parser-generator utilities|GPL|v 0.1.8 6/2004|LALR(1)||Doesn't yet support Windows.|
 |[Yappy](http://www.dcc.fc.up.pt/~rvr/naulas/Yappy/index.html)|||v 1.9.4 8/2014|SLR, LR(1) and LALR(1)||Uses python strings to declare the grammar.|
 |[Toy Parser Generator](http://cdsoft.fr/tpg/)||LGPL|v 3.2.2 12/2013||||
+|[kwParsing](http://gadfly.sourceforge.net/kwParsing.html)|An experimental parser generator implemented in Python which generates parsers implemented in Python.|Python License|v 1.3|SLR|[Gadfly](http://gadfly.sourceforge.net/)|
 
 ## Articles
 
-* [http://effbot.org/zone/simple-top-down-parsing.htm](http://effbot.org/zone/simple-top-down-parsing.htm)|Not a tool exactly, but a methodology for writing top-down parsers in Python. (7/2008)
-* [Pysec: Monadic Combinatoric Parsing in Python](http://www.valuedlessons.com/2008/02/pysec-monadic-combinatoric-parsing-in.html)|An exposition of using monads to build a Python parser. (2/2008)
+* [http://effbot.org/zone/simple-top-down-parsing.htm](http://effbot.org/zone/simple-top-down-parsing.htm) - A methodology for writing top-down parsers in Python. (7/2008)
+* [Pysec: Monadic Combinatoric Parsing in Python](http://www.valuedlessons.com/2008/02/pysec-monadic-combinatoric-parsing-in.html) - An exposition of using monads to build a Python parser. (2/2008)
