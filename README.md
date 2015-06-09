@@ -36,6 +36,10 @@ A list of Python parsing tools initially imported from [@nedbat's](https://githu
 |[mxTextTools]()|An unusual table-based parser. There is no generation step, the parser is hand-coded using primitives provided by the package. The parser is implemented in C for speed. (just above).|eGenix Public License, similar to Python, compatible with GPL.|v 3.2.8 7/2014||SimpleParse, Martel||
 |[SPARK](http://pages.cpsc.ucalgary.ca/~aycock/spark/)|Uses docstrings to associate productions with actions. Unlike other tools, also includes semantic analysis and code generation phases.|MIT|v 0.7 pre-alpha 7 5/2002||||
 |[FlexModule and BisonModule](http://www.crsr.net/Software/FBModule.html)|Macros to allow Flex and Bison to produce idiomatic lexers and parsers for Python. The generated lexers and parsers are in C, compiled into loadable modules. |Pythonesque|v 2.1 3/2002||||
+|[Bison in a box](http://hyperreal.org/~est/freeware/)|Uses standard Bison to generate pure Python parsers. It actually reads the bison-generated .c file and generates Python code.|GPL|v 0.1.0 6/2001|LALR(1)|||
+|[Berkeley YACC](http://invisible-island.net/byacc/byacc.html)|Classic YACC, extended to generate Python code. Python support seems to be undocumented.|Public Domain|v 20141128 11/2014|LALR(1)|||
+|[PyLR](https://web.archive.org/web/20050728024331/http://starship.python.net/crew/scott/PyLR.html)|Lexer is based on regular expressions.||12/1997|LR|||
+|[PyLR](https://github.com/Mappy/PyLR)|PyLR is a partial Python implementation of the [OpenLR specification](http://www.openlr.org)|Apache 2.0|12/2014|||[announcement](http://techblog.mappy.com/PyLR,%20an%20OpenLR%20decoder%20in%20python.html)|
 
 
 ## Articles
