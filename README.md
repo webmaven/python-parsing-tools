@@ -1,6 +1,8 @@
 # Python Parsing Tools
 A list of Python parsing tools initially imported from [@nedbat's](https://github.com/nedbat) [blog post](http://nedbatchelder.com/text/python-parsers.html).
 
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Python Parsing Tools</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.michaelbernstein.com" property="cc:attributionName" rel="cc:attributionURL">Michael R. Bernstein</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/webmaven/python-parsing-tools/" rel="dct:source">https://github.com/webmaven/python-parsing-tools/</a>.
+
 ## The List
 
 |Name|Description|License|Updated|Parses|Used By|Notes|
