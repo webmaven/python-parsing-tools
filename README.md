@@ -32,8 +32,11 @@ A list of Python parsing tools initially imported from [@nedbat's](https://githu
 |[Toy Parser Generator](http://cdsoft.fr/tpg/)||LGPL|v 3.2.2 12/2013||||
 |[kwParsing](http://gadfly.sourceforge.net/kwParsing.html)|An experimental parser generator implemented in Python which generates parsers implemented in Python.|Python License|v 1.3|SLR|[Gadfly](http://gadfly.sourceforge.net/)|
 |[Martel](http://www.dalkescientific.com/Martel/)|Martel uses regular expression format definition to generate a parser for flat- and semi-structured files.  The parse tree information is passed back to the caller using XML SAX events.  In other words, Martel lets you parse flat files as if they are in XML.|BSD|v 0.8 12/2001||[BioPython](http://biopython.org/) [versions 1.4-1.48](https://github.com/biopython/biopython/blob/6f9e7a741fdc4598509292d911020995ba2a5241/DEPRECATED#L283-L287)|[Last version included in BioPython](https://github.com/biopython/biopython/tree/29aa4df3480cdee803694766f137ab2baf5625b2/Martel)|
-|[SimpleParse](http://simpleparse.sourceforge.net/)|BSD|2.11a2 8/2010|Lexing and parsing in one step, but only deterministic grammars. |||
+|[SimpleParse](http://simpleparse.sourceforge.net/)|Lexing and parsing in one step, but only deterministic grammars.|BSD|2.11a2 8/2010||||
 |[mxTextTools]()|An unusual table-based parser. There is no generation step, the parser is hand-coded using primitives provided by the package. The parser is implemented in C for speed. (just above).|eGenix Public License, similar to Python, compatible with GPL.|v 3.2.8 7/2014||SimpleParse, Martel||
+|[SPARK](http://pages.cpsc.ucalgary.ca/~aycock/spark/)|Uses docstrings to associate productions with actions. Unlike other tools, also includes semantic analysis and code generation phases.|MIT|v 0.7 pre-alpha 7 5/2002||||
+|[FlexModule and BisonModule](http://www.crsr.net/Software/FBModule.html)|Macros to allow Flex and Bison to produce idiomatic lexers and parsers for Python. The generated lexers and parsers are in C, compiled into loadable modules. |Pythonesque|v 2.1 3/2002||||
+
 
 ## Articles
 
