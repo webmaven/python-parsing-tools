@@ -31,6 +31,9 @@ A list of Python parsing tools initially imported from [@nedbat's](https://githu
 |[Yappy](http://www.dcc.fc.up.pt/~rvr/naulas/Yappy/index.html)|||v 1.9.4 8/2014|SLR, LR(1) and LALR(1)||Uses python strings to declare the grammar.|
 |[Toy Parser Generator](http://cdsoft.fr/tpg/)||LGPL|v 3.2.2 12/2013||||
 |[kwParsing](http://gadfly.sourceforge.net/kwParsing.html)|An experimental parser generator implemented in Python which generates parsers implemented in Python.|Python License|v 1.3|SLR|[Gadfly](http://gadfly.sourceforge.net/)|
+|[Martel](http://www.dalkescientific.com/Martel/)|Martel uses regular expression format definition to generate a parser for flat- and semi-structured files.  The parse tree information is passed back to the caller using XML SAX events.  In other words, Martel lets you parse flat files as if they are in XML.|BSD|v 0.8 12/2001||[BioPython](http://biopython.org/) [versions 1.4-1.48](https://github.com/biopython/biopython/blob/6f9e7a741fdc4598509292d911020995ba2a5241/DEPRECATED#L283-L287)|[Last version included in BioPython](https://github.com/biopython/biopython/tree/29aa4df3480cdee803694766f137ab2baf5625b2/Martel)|
+|[SimpleParse](http://simpleparse.sourceforge.net/)|BSD|2.11a2 8/2010|Lexing and parsing in one step, but only deterministic grammars. |||
+|[mxTextTools]()|An unusual table-based parser. There is no generation step, the parser is hand-coded using primitives provided by the package. The parser is implemented in C for speed. (just above).|eGenix Public License, similar to Python, compatible with GPL.|v 3.2.8 7/2014||SimpleParse, Martel||
 
 ## Articles
 
