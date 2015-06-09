@@ -40,6 +40,8 @@ A list of Python parsing tools initially imported from [@nedbat's](https://githu
 |[Berkeley YACC](http://invisible-island.net/byacc/byacc.html)|Classic YACC, extended to generate Python code. Python support seems to be undocumented.|Public Domain|v 20141128 11/2014|LALR(1)|||
 |[PyLR](https://web.archive.org/web/20050728024331/http://starship.python.net/crew/scott/PyLR.html)|Lexer is based on regular expressions.||12/1997|LR|||
 |[PyLR](https://github.com/Mappy/PyLR)|PyLR is a partial Python implementation of the [OpenLR specification](http://www.openlr.org)|Apache 2.0|12/2014|||[announcement](http://techblog.mappy.com/PyLR,%20an%20OpenLR%20decoder%20in%20python.html)|
+|[Construct](http://construct.readthedocs.org/)|A declarative parser (and builder) for binary data.|BSD|v 2.5.2 4/2014||||
+|[ModGrammar](https://pythonhosted.org/modgrammar/index.html)|A general-purpose library for constructing language parsers and interpreters for context-free grammar definitions.|BSD|v 0.10 2/2013||||
 
 ## Standard Modules
 
@@ -51,6 +53,7 @@ The Python standard library includes a few modules for special-purpose parsing p
 * [email](https://docs.python.org/2/library/email.html) provides many services, including parsing email and other RFC-822 structures.
 parser parses Python source text.
 * [cmd](https://docs.python.org/2/library/cmd.html) implements a simple command interface, prompting for and parsing out command names, then dispatching to your handler methods.
+* [json](https://docs.python.org/2/library/json.html) JSON (JavaScript Object Notation) encoder and decoder
 
 ## Articles
 
