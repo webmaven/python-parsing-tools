@@ -44,7 +44,7 @@ A list of Python parsing tools initially imported from [@nedbat's](https://githu
 |[PyLR](https://github.com/Mappy/PyLR)|PyLR is a partial Python implementation of the [OpenLR specification](http://www.openlr.org)|Apache 2.0|12/2014|||[announcement](http://techblog.mappy.com/PyLR,%20an%20OpenLR%20decoder%20in%20python.html)|
 |[Construct](http://construct.readthedocs.org/)|A declarative parser (and builder) for binary data.|BSD|v 2.5.2 4/2014||||
 |[ModGrammar](https://pythonhosted.org/modgrammar/index.html)|A general-purpose library for constructing language parsers and interpreters for context-free grammar definitions.|BSD|v 0.10 2/2013||||
-|[lrparsing](http://lrparsing.sourceforge.net/)||AGPLv3|v 1.0.11 3/2015|LR(1)|||
+|[lrparsing](http://lrparsing.sourceforge.net/)|Both an LR(1) parser and a tokeniser. It differs from other Python LR(1) parsers in using Python expressions as grammars, and offers simple to use disambiguation tools. It is throuoghly documented, and runs quickly. Compatible with python2 and python3.|AGPLv3|v 1.0.11 3/2015|LR(1)|||
 
 ## Standard Modules
 
