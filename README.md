@@ -51,11 +51,12 @@ The Python standard library includes a few modules for special-purpose parsing p
 
 * [shlex](https://docs.python.org/2/library/shlex.html) lexes command lines using the rules common to many operating system shells.
 * [ConfigParser](https://docs.python.org/2/library/configparser.html) implements a basic configuration file parser language which provides a structure similar to what you would find on Microsoft Windows INI files.
-* [ArgParse](https://docs.python.org/2/library/argparse.html) The argparse module makes it easy to write user-friendly command-line interfaces. The program defines what arguments it requires, and argparse will figure out how to parse those out of sys.argv. The argparse module also automatically generates help and usage messages and issues errors when users give the program invalid arguments.
+* [ArgParse](https://docs.python.org/2/library/argparse.html) makes it easy to write user-friendly command-line interfaces. The program defines what arguments it requires, and argparse will figure out how to parse those out of sys.argv. The argparse module also automatically generates help and usage messages and issues errors when users give the program invalid arguments.
 * [email](https://docs.python.org/2/library/email.html) provides many services, including parsing email and other RFC-822 structures.
 parser parses Python source text.
 * [cmd](https://docs.python.org/2/library/cmd.html) implements a simple command interface, prompting for and parsing out command names, then dispatching to your handler methods.
-* [json](https://docs.python.org/2/library/json.html) JSON (JavaScript Object Notation) encoder and decoder
+* [json](https://docs.python.org/2/library/json.html) is a JSON (JavaScript Object Notation) encoder and decoder
+* [tokenize](https://docs.python.org/2/library/tokenize.html) is a lexical scanner for Python source code, implemented in Python.
 
 ## Articles
 
