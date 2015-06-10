@@ -43,6 +43,7 @@ A list of Python parsing tools initially imported from [@nedbat's](https://githu
 |[Construct](http://construct.readthedocs.org/)|A declarative parser (and builder) for binary data.|BSD|v 2.5.2 4/2014||||
 |[ModGrammar](https://pythonhosted.org/modgrammar/index.html)|A general-purpose library for constructing language parsers and interpreters for context-free grammar definitions.|BSD|v 0.10 2/2013||||
 |[lrparsing](http://lrparsing.sourceforge.net/)||AGPLv3|v 1.0.11 3/2015|LR(1)|||
+|[docopt](http://docopt.org/)|Generates a parser based on formalized conventions that are used for help messages and man pages for program interface description.|MIT|v 0.6.2 6/2014||||
 
 ## Standard Modules
 
