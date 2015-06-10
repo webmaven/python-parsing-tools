@@ -59,7 +59,7 @@ parser parses Python source text.
 
 ## Articles
 
-* [http://effbot.org/zone/simple-top-down-parsing.htm](http://effbot.org/zone/simple-top-down-parsing.htm) - A methodology for writing top-down parsers in Python. (7/2008)
+* [Simple Top-Down Parsing in Python](http://effbot.org/zone/simple-top-down-parsing.htm) - A methodology for writing top-down parsers in Python. (7/2008)
 * [Pysec: Monadic Combinatoric Parsing in Python](http://www.valuedlessons.com/2008/02/pysec-monadic-combinatoric-parsing-in.html) - An exposition of using monads to build a Python parser. (2/2008)
 
 ## Licensing and Attribution
