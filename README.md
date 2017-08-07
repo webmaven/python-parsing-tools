@@ -44,6 +44,7 @@ A list of Python parsing tools initially imported from [@nedbat's](https://githu
 |[ModGrammar](https://pythonhosted.org/modgrammar/index.html)|A general-purpose library for constructing language parsers and interpreters for context-free grammar definitions.|BSD|v 0.10 2/2013||||
 |[lrparsing](http://lrparsing.sourceforge.net/)|Differs from other Python LR(1) parsers in using Python expressions as grammars, and offers disambiguation tools.|AGPLv3|v 1.0.11 3/2015|LR(1) parser and a tokeniser|||
 |[docopt](http://docopt.org/)|Generates a parser based on formalized conventions that are used for help messages and man pages for program interface description.|MIT|v 0.6.2 6/2014||||
+|[parsyfiles](https://github.com/smarie/python-parsyfiles)|Read files as objects, even if several parsers and converters are needed. Supports custom parser/converter registration.|BSD-3-Clause|v2.3.0/2017|||A typical use case is to read collections of test cases on the file system.|
 
 ## Standard Modules
 
